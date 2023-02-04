@@ -1,0 +1,31 @@
+body{
+    background-size: cover ;
+}
+
+.heading{
+    width: 100%;
+    font-size: 23px;
+    margin-top: 0;
+}
+
+#start,#no_of_objects_detected,#status{
+    font-size: 18px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    line-height: 3;
+    bottom: 0;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    color: rgb(255, 0, 0);
+    font-family: Jokerman;
+    width: 100%;
+}
+
+canvas{
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red;
+    margin-top: 130px;
+}
